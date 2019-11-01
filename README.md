@@ -12,9 +12,13 @@ put all that in an if statement, made the opposite, and put it in an else statem
 
 5.3
 detected commas in num.csv using while loop and if statement, added 1 to commas, made a numarray with size commas
-trying to figure out how to concatenate and get to the atoi part...
-didn't finish yet, I will push my progress
+made a while loop with if else statement to add numbers to savstr char array of size 2. added these to numarray,
+computed avg.
 
 5.4
 defined enum, 
-didn't finish yet, I will push my progress
+created struct, created seven instances of variable type scale each corresponding to number intervals of each mode.
+I am confused about what the result of this assignment is supposed to do... 
+Are we starting with an ASCII value? 
+Do you want us to convert this to MIDI notes? 
+Should we be giving the root note in the form of a MIDI number to begin with?

@@ -16,22 +16,34 @@ enum Modes {
 };
 typedef enum Modes modes;
 struct Scale {
-    int Note[8];
+     char Note;
 unsigned char rootNote;
 };
 typedef struct Scale scale;
 
-scale ionian;
-scale dorian; 
-scale phrygian;
-scale lydian;
-scale mixolydian;
-scale aeolian;
-scale locrian;
-
 
 
 int main(int argc, char *argv[]) {
+ 
+modes askmode;
+scale rooot;
+scale ionian[] = {0,2,4,5,7,9,11,12};
+scale dorian[] =  {0,2,3,5,7,9,10,12};
+scale phrygian[] =  {0,1,3,5,7,8,10,12};
+scale lydian[] = {0,2,4,6,7,9,11,12};
+scale aeolian[] = {0,2,4,5,7,9,10,12};
+scale mixlydian[] = {0,2,3,5,7,8,10,12};
+scale locrian[] = {0,1,3,5,6,8,10,12};
+
+printf("Which mode? Enter the scale degree: ");
+scanf("%d", &askmode);
+printf("\n");
+
+printf("Root note: ");
+scanf("%c", &rooot);
+printf("\n");
+
+printf("MIDI notes: ");
 
 return 0;
 }
